@@ -2,7 +2,7 @@
 Preview moudule
 
 
-1. The src/com/module has Main.java which handles the backend code for creating a renderable view for office file formats.
+1. The "src/com/module" has Main.java which handles the backend code for creating a renderable view for office file formats.
 After performing the processing it alerts the client of its successful status so that the client can now display 
 the file selected by the user.
 
@@ -14,4 +14,8 @@ It displays the option of selecting the file and performing preview.
 
 4. The resources folder has myjs.js which is a javascript file used to perform the operations of displaying the preview.
 
-5. The resources folder also contains some image resources and css sheets.
+5. The resources folder also contains some image resources and css sheets. The images include excel icon, word icon you see when you select a particular file. The style sheet .css is used to arrange the web elements style on the browser.
+
+6. So to run the application one must have tomcat installed on the system and the configuration files help tomcat in doing some custom initialisation and serving client requets.
+
+

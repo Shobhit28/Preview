@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Attachments</title>
+    
+    <script type="text/javascript" src="resources/jquery.js"></script>
+</head>
+
+<body>
+
+
+<p>When you submit the form, a function is triggered which alerts some text.</p>
+
+
+<form onsubmit="getpath()">
+    Select File:
+    <input type="file" id="filepath">
+    <input type="submit" value="Submit">
+</form>
+
+<script>
+    function getpath() {
+    alert('!');
+    var x = document.getElementById("filepath").value;
+    alert(x);
+
+    $.ajax({
+		url:"/home/msg",
+		async:true,
+		cache:false,
+		data:({
+			file_name:x
+		}),
+		success:function(data){
+
+		},
+		error:function(){
+
+		}
+
+
+	});
+/*
+        $('input[type=file]').change(function () {
+            var filePath=$('#filepath').val();
+            alert("The form was submitted");
+        });
+*/
+
+    }
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+
+.op{
+	width:1300px;
+	height:750px;
+	opacity: 1;
+	margin-top:-21px;
+	margin-left:-21px;
+	
+	
+}
+#view{
+	margin-left: 280px;
+	position:absolute;
+	margin-top:-750px;
+	width:700px;
+	height:720px;
+	display:none;
+		
+}
+#cross{
+	margin-top:-745px;
+	position:absolute;
+	width:30px;
+	height:30px;
+	margin-left: 1220px;
+	display:none;
+}
+#material{
+	width:200px;
+	height:500px;
+	position: absolute;
+	margin-top:-600px;
+	
+	z-index: -1;
+}

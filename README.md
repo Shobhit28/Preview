@@ -2,7 +2,7 @@
 Preview moudule
 
 
-1. The "src/com/module" has Main.java which handles the backend code for creating a renderable view for office file formats.
+1. The "src/com/module" has Main.java which handles the backend code for creating a renderable view for the file selected by the user.
 After performing the processing it alerts the client of its successful status so that the client can now display 
 the file selected by the user.
 
